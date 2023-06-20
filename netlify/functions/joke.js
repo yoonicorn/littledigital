@@ -1,5 +1,5 @@
 // Jokes provided from the lovely folks at https://icanhazdadjoke.com
-import jokes from '/netlify/functions/jokes.json';
+import jokes from './jokes.json';
 
 export const handler = async (event) => {
     // Generates a random index based on the length of the jokes array
